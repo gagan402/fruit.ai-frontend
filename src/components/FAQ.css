@@ -1,0 +1,48 @@
+.faq-section {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(90deg, #e0c3fc 10%, #8ec5fc 25%, #90f7ec 80%);
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+
+}
+
+.faq-card {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f590 ;
+}
+h2{
+  color:white;
+}
+.faq-card img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.faq-content {
+  text-align: left;
+}
+
+.faq-content h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: red; /* Change question color to red */
+  font-weight: bold; /* Make question bold */
+}
+
+.faq-content p {
+  margin: 5px 0;
+  color: #04849b; /* Change answer color to blue */
+  font-weight: bold; /* Make answer bold */
+}

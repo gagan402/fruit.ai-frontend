@@ -1,0 +1,97 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(90deg, #e0c3fc 10%, #8ec5fc 25%, #90f7ec 80%);
+
+    /* background: linear-gradient(135deg,#e7a1fd 50%, #7ed8fe 50%); */
+
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: white;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    color: white;
+  }
+  
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .grid-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s;
+  /* background: linear-gradient(90deg, #e0c3fc 0%, #8ec5fc 25%, #90f7ec 50%, #fbc2eb 75%, #fcd1a1 100%); */
+ 
+  }
+  
+  /* .grid-button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+  } */
+  .a1
+  {
+    background-color: #9df8d7;
+    box-shadow: 0 0 20px #9df8d7;
+    border-radius: 20px; 
+
+  }
+  .a2
+  {
+    background-color: #f3f7bb;
+    box-shadow: 0 0 20px #f3f7bb;
+    border-radius: 20px; 
+
+  }
+
+  .chat {
+    background-color: #f5dbac;
+    color: #932f83;
+    box-shadow: 0 0 20px #f5dbac;
+    border-radius: 20px; 
+    /* padding: 20px; */
+  }
+  
+  .translator {
+    background-color: #b3e5fc;
+    box-shadow: 0 0 20px #b3e5fc;
+    border-radius: 20px; 
+  }
+  
+  .faqs {
+    background-color: #c5e1a5;
+    color: #303f9f;
+    box-shadow: 0 0 20px #c5e1a5;
+    border-radius: 20px; 
+  }
+  
+  .about {
+    background-color: #e1bee7;
+    color: #6a1b9a;
+    box-shadow: 0 0 20px #e1bee7;
+    border-radius: 20px; 
+  }
+  
